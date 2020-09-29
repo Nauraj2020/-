@@ -1,0 +1,66 @@
+h1
+{
+    text-align: center;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
+
+
+body
+{
+    margin:0;
+    padding:0;
+    background:Green;
+
+}
+#box
+{
+    position:absolute;
+    top:20%;
+
+    left:90%;
+    transform: translate(-50%,-50%);
+}
+#box select
+{
+    
+    background:blue;
+    color:red;
+    padding: 10px;
+    width:200px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0 5pz 25px rgba(0,0,0,.5);
+    -webkit-appearance:button;
+    outline:none;
+
+
+
+}
+#box::before{
+    content:'\f0c9';
+    position: absolute;
+    top:0;
+    right:0;
+    width:40px;
+    height:40px;
+    background: blue;
+    font-family: Fontawesome;
+    display: flex;
+    align-items: center;
+
+
+
+}
+#box:hover:before
+{
+    background:black;
+    pointer-events: none;
+
+}

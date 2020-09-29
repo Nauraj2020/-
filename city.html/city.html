@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom box</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="city.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="first_search"></div>
+  
+        ​
+        <h1>Filter search</h1>
+      
+        ​
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a name">
+        ​
+        <ul id="myUL">
+          <li><a href="https://app.rakuten.co.jp/services/api/Travel/SimpleHotelSearch/20170426?format=json&applicationId=1020173082905393111&largeClassCode=' + large_cd + '&middleClassCode=' + mid_cd + '&smallClassCode=' + small_cd + '&hits = 100',">Hotels</a></li>
+          <li><a href="#">Restaurent</a></li>
+         
+        ​
+          
+        </ul>
+        ​
+        
+        ​
+        
+    <h2>Select Cities</h2>
+    <div id="box">
+        <select>
+            <option>鹿児島市 </option>
+            <option>鹿屋市</option>
+            <option>姶良市</option>
+            <option>霧島市</option>
+            <option>指宿市</option>
+        </select>
+    </div>
+    <script src="city.js"></script>
+    
+</body>
+</html>
+
